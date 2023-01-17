@@ -1,0 +1,23 @@
+body {
+    background: url(https://sm.ign.com/ign_in/cover/b/blue-beetl/blue-beetle-the-movie_evcx.jpg) no-repeat;
+}
+div {
+    font-size: 32px;
+    color: blueviolet;
+    background: rgba(32, 46, 110, 0.559);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 1.5px;
+    border: 10px solid navy;
+    border-style: groove;
+    border-radius: 30px;
+}
+
+div p {
+    height: 100px;
+    margin: 40px;
+    overflow: scroll;
+    text-align: center;
+}
