@@ -1,0 +1,76 @@
+.base {
+    background: black;
+    width: 650px;
+    height: 700px;
+    border: 7px solid;
+}
+.sq1 {
+    background: rgb(253, 253, 253);
+    width: 200px;
+    height: 75px;
+}
+.sq2 {
+    background: rgb(0, 7, 197);
+    width: 440px;
+    height: 75px;
+    margin-left: 210px;
+}
+.sq3 {
+    background: rgb(253, 253, 253);
+    margin-top: 10px;
+    width: 200px;
+    height: 325px;
+}
+.sq4 {
+    background: rgb(0, 7, 197);
+    width: 440px;
+    height: 325px;
+    margin-left: 210px;
+}
+.sq5 {
+    background: rgb(248, 52, 45);
+    width: 90px;
+    height: 175px;
+    margin-top: 10px;
+}
+.sq6 {
+    background: rgb(253, 253, 253);
+    margin-left: 210px;
+    margin-top: 10px;
+    width: 225px;
+    height: 175px;
+}
+.sq7 {
+    background: rgb(253, 253, 253);
+    margin-left: 235px;
+    margin-top: 10px;
+    width: 150px;
+    height: 175px;
+}
+.sq8 {
+    background: rgb(253, 253, 253);
+    margin-left: 160px;
+    margin-top: 10px;
+    width: 45px;
+    height: 175px;
+}
+.sq9 {
+    background: rgb(253, 253, 253);
+    margin-top: 10px;
+    width: 435px;
+    height: 95px;
+}
+.sq10 {
+    background: rgb(255, 224, 49);
+    margin-top: 10px;
+    margin-left: 445px;
+    width: 150px;
+    height: 95px;
+}
+.sq11 {
+    background: rgb(253, 253, 253);
+    margin-top: 10px;
+    margin-left: 160px;
+    width: 45px;
+    height: 95px;
+}
