@@ -1,0 +1,157 @@
+.body {
+    background: #f8bfce;
+}
+.base1 {
+    position: absolute;
+    scale: 1.5;
+    left: 40%;
+    top: 25%;
+    border: solid #0e5e85;
+}
+.base2 {
+    position: absolute;
+    scale: 1.5;
+    left: 40%;
+    top: 25%;
+    border: solid #0e5e85;
+    animation: base2 3s infinite;
+}
+.base3 {
+    position: absolute;
+    scale: 1.5;
+    left: 40%;
+    top: 25%;
+    border: solid #0e5e85;
+    animation: base3 3s infinite;
+}
+.base4 {
+    position: absolute;
+    scale: 1.5;
+    left: 40%;
+    top: 25%;
+    border: solid #0e5e85;
+    animation: base4 3s infinite;
+}
+.ptext {
+    position: absolute;
+    scale: 1.5;
+    left: 42.4%;
+    top: 19.1%;
+    animation: ptext 3s infinite;
+}
+.speechbubble {
+    position: absolute;
+    scale: 1.5;
+    left: 39.8%;
+    top: 40.5%;
+    animation: speechbubble 3s infinite;
+}
+.tring1 {
+    position: absolute;
+    scale: 1.5;
+    left: 56.7%;
+    top: 32.9%;
+    animation: tring1 3s infinite;
+}
+.tring2 {
+    position: absolute;
+    scale: 1.5;
+    left: 54.7%;
+    top: 35.1%;
+    animation: tring2 3s infinite;
+}
+.tring3 {
+    position: absolute;
+    scale: 1.5;
+    left: 53.7%;
+    top: 39.3%;
+    animation: tring3 3s infinite;
+}
+@keyframes ptext {
+    0%, 100% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.75);
+    }
+    80% {
+        transform: scale(1);
+    }
+}
+@keyframes speechbubble {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes base2 {
+    25% {
+        opacity: 0;
+    }
+}
+@keyframes base3 {
+    50% {
+        opacity: 0;
+    }
+}
+@keyframes base4 {
+    75% {
+        opacity: 0;
+    }
+}
+@keyframes tring1 {
+    0% {
+        transform: translate(-20%, -20%);
+    }
+    20% {
+        transform: translate(0%, 0%);
+    }
+    50% {
+        transform: translate(-20%, -20%);
+    }
+    80% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(-20%, -20%);
+    }
+}
+@keyframes tring2 {
+    0% {
+        transform: translate(-20%, -20%);
+    }
+    20% {
+        transform: translate(0%, 0%);
+    }
+    50% {
+        transform: translate(-20%, -20%);
+    }
+    80% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(-20%, -20%);
+    }
+}
+@keyframes tring3 {
+    0% {
+        transform: translate(-20%, -20%);
+    }
+    20% {
+        transform: translate(0%, 0%);
+    }
+    50% {
+        transform: translate(-20%, -20%);
+    }
+    80% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(-20%, -20%);
+    }
+}

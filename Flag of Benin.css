@@ -1,0 +1,31 @@
+body, html {
+    height: 100%;
+}
+
+.base {
+    background: black;
+    width: 40%;
+    height: 60%;
+    position: absolute;
+}
+.stripe1 {
+    background: #00a652;
+    width: 40%;
+    height: 100%;
+}
+.stripe2 {
+    background: #fef200;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    left: 40%;
+}
+.stripe3 {
+    background: #ed1b24;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    left: 40%;
+    bottom: 0%;
+}
+
