@@ -2,74 +2,75 @@
     background: #f8bfce;
 }
 .mainbody {
-   background: #ffffff;
-   height: 100%;
-   width: 100%;
+   background: #f8bfce;
+   position: absolute;
+   width: 90%;
+   height: 90%;
 }
 .base1 {
     position: absolute;
     scale: 1.5;
-    left: 40%;
-    top: 25%;
+    left: 45%;
+    top: 30%;
     border: solid #0e5e85;
 }
 .base2 {
     position: absolute;
     scale: 1.5;
-    left: 40%;
-    top: 25%;
+    left: 45%;
+    top: 30%;
     border: solid #0e5e85;
     animation: base2 3s infinite;
 }
 .base3 {
     position: absolute;
     scale: 1.5;
-    left: 40%;
-    top: 25%;
+    left: 45%;
+    top: 30%;
     border: solid #0e5e85;
     animation: base3 3s infinite;
 }
 .base4 {
     position: absolute;
     scale: 1.5;
-    left: 40%;
-    top: 25%;
+    left: 45%;
+    top: 30%;
     border: solid #0e5e85;
     animation: base4 3s infinite;
 }
 .ptext {
     position: absolute;
     scale: 1.5;
-    left: 42.4%;
-    top: 19.1%;
+    left: 47.8%;
+    top: 23.5%;
     animation: ptext 3s infinite;
 }
 .speechbubble {
     position: absolute;
     scale: 1.5;
-    left: 39.8%;
-    top: 40.5%;
+    left: 44.8%;
+    top: 47.5%;
     animation: speechbubble 3s infinite;
 }
 .tring1 {
     position: absolute;
     scale: 1.5;
-    left: 56.7%;
-    top: 32.9%;
+    left: 63.5%;
+    top: 39.5%;
     animation: tring1 3s infinite;
 }
 .tring2 {
     position: absolute;
     scale: 1.5;
-    left: 54.7%;
-    top: 35.1%;
+    left: 61.4%;
+    top: 41.6%;
     animation: tring2 3s infinite;
 }
 .tring3 {
     position: absolute;
     scale: 1.5;
-    left: 53.7%;
-    top: 39.3%;
+    left: 60.1%;
+    top: 45.6%;
     animation: tring3 3s infinite;
 }
 @keyframes ptext {
