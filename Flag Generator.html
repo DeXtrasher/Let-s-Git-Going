@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flag Generator </title>
+</head>
+<body>
+    <div class="flag-gen">
+       <p> Flag Generator </p> 
+    </div>
+    <p class="info"> Here's a fun flag generator to create random (mostly non-existent) flags! Just select your preferred
+        stripe orientation and hit 'Generate!'
+    </p>
+    <style>
+        .body {
+            height: 100%;
+            width: 100%;
+        }
+        .flag-gen {
+            font-size: 200%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: orangered;
+            text-align: center;
+            margin: auto;
+        }
+        .info {
+            font-size: 100%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin-bottom: 2%;
+        }
+        #canvas {
+            background-color: rgb(225, 225, 225);
+            width: 50%;
+            height: 60%;
+            margin: auto;
+            position: absolute;
+            left: 25%;
+        }
+        #gen {
+            position: absolute;
+            width: 7%;
+            height: 5%;
+            background-color: rgb(197, 255, 255);
+            border-width: 1%;
+            border-style: solid;
+            top: 85%;
+            left: 60%;
+            text-indent: -3%;
+            line-height: 0.6em;
+            margin: auto;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #rangbox1 {
+            background-color: rgb(225, 225, 225);
+            width: 100%;
+            height: 33.33%;
+            margin: auto;
+            position: absolute;
+        }
+        #rangbox2 {
+            background-color: rgb(225, 225, 225);
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+            top: 100%
+        }
+        #rangbox3 {
+            background-color: rgb(225, 225, 225);
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+            top: 100%
+        }
+        #rangbox4 {
+            background-color: rgb(225, 225, 225);
+            width: 33.33%;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+        }
+        #rangbox5 {
+            background-color: rgb(225, 225, 225);
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+            left: 100%
+        }
+        #rangbox6 {
+            background-color: rgb(225, 225, 225);
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+            left: 100%
+        }
+        .label {
+            position: absolute;
+            top: 86%;
+            right: 60%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #oriental {
+            position: absolute;
+            top: 86%;
+            right: 53.5%;
+        }
+    </style>
+    <div id = "canvas">
+        <div id="rangbox4">
+            <div id="rangbox5">
+                <div id="rangbox6">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+        <div id="rangbox1">
+            <div id="rangbox2">
+                <div id="rangbox3">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </div>
+    <label for="orientation" class="label"> Orientation: </label>
+    <select name="oriental" id="oriental">
+        <option value="Horizontal"> Horizontal </option>
+        <option value="Vertical"> Vertical </option>
+    </select>
+    <button id="gen" onclick="genpaint()">
+       <p style="color: blue;"> Generate! </p>
+    </button>
+    <script>
+        function genpaint() {
+            var box1 = document.getElementById("rangbox1")
+            var box2 = document.getElementById("rangbox2")
+            var box3 = document.getElementById("rangbox3")
+            var box4 = document.getElementById("rangbox4")
+            var box5 = document.getElementById("rangbox5")
+            var box6 = document.getElementById("rangbox6")
+            var sels = document.getElementById("oriental").value
+            var varbox1r = Math.floor(Math.random() * 256)
+            var varbox1g = Math.floor(Math.random() * 256)
+            var varbox1b = Math.floor(Math.random() * 256)
+            var varbox2r = Math.floor(Math.random() * 256)
+            var varbox2g = Math.floor(Math.random() * 256)
+            var varbox2b = Math.floor(Math.random() * 256)
+            var varbox3r = Math.floor(Math.random() * 256)
+            var varbox3g = Math.floor(Math.random() * 256)
+            var varbox3b = Math.floor(Math.random() * 256)
+            if (sels == "Vertical") {
+                box1.style.visibility = "hidden"
+                box4.style.backgroundColor = "rgb("+ varbox1r +", "+ varbox1g +", "+ varbox1b +")"
+                box5.style.backgroundColor = "rgb("+ varbox2r +", "+ varbox2g +", "+ varbox2b +")"
+                box6.style.backgroundColor = "rgb("+ varbox3r +", "+ varbox3g +", "+ varbox3b +")"
+            } else {
+                box1.style.visibility = "visible"
+                box1.style.backgroundColor = "rgb("+ varbox1r +", "+ varbox1g +", "+ varbox1b +")"
+                box2.style.backgroundColor = "rgb("+ varbox2r +", "+ varbox2g +", "+ varbox2b +")"
+                box3.style.backgroundColor = "rgb("+ varbox3r +", "+ varbox3g +", "+ varbox3b +")"
+            }
+        }
+    </script>
+</body>
+</html>
