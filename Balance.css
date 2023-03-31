@@ -1,0 +1,48 @@
+.a {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 800%;
+    left: 45.9%;
+    top: 42%;
+    font-weight: bold;
+}
+.bal {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 450%;
+    left: 36%;
+    top: 48%;
+    animation: see 3s infinite;
+}
+.nce {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 450%;
+    left: 54%;
+    top: 48%;
+    animation: saw 3s infinite;
+}
+@keyframes see {
+    25% {
+        translate: 0% 50%;
+        transform: rotate(-15deg);
+        color: red;
+    }
+    75% {
+        translate: 0% -50%;
+        transform: rotate(15deg);
+        color: blue;
+    }
+}
+@keyframes saw {
+    25% {
+        translate: 0% -50%;
+        transform: rotate(-15deg);
+        color: blue;
+    }
+    75% {
+        translate: 0% 50%;
+        transform: rotate(15deg);
+        color: red;
+    }
+}
